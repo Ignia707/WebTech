@@ -1,0 +1,41 @@
+/* CSS file for styling resume */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+footer{
+    text-align: center;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: black;
+    color: whitesmoke;
+    position: relative;
+}
+
+li{
+    line-height: 25px;
+    margin-left: 25px;
+}
+
+.header{
+    text-align: center;
+}
+
+.edu{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.school, .university, .vsrms, .task, .hack, .segment{
+    margin-left: 15px;
+    margin-right: 20px;
+    border-left: 5px solid #ccc;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-left: 7px;
+    border: 80%;
+    box-shadow: 5px 0px 5px #ccc;
+    margin-bottom: 20px;
+}
