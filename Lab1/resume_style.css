@@ -39,3 +39,9 @@ li{
     box-shadow: 5px 0px 5px #ccc;
     margin-bottom: 20px;
 }
+
+.vsrms, .task, .hack, .segment{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-bottom: 20px;
+}
